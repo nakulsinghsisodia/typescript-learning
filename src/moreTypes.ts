@@ -10,3 +10,8 @@ let bookString = '{"name":"atomic habit"}'
 let bookObj = JSON.parse(bookString) as  book
 
 console.log(bookObj.name);
+
+
+// type assertion in html
+
+const ip = document.getElementById('input') as HTMLInputElement
