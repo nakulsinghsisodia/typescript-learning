@@ -19,3 +19,27 @@ const admin: superUser={
     age:21,
     role:"admin"
 }
+
+// union in type
+// inme se hi hogi value
+
+type role = "admin"|"user"
+
+const rahul:role = 'admin'
+
+type linux = {
+    os: 'linux',
+    size: "less"
+}
+
+type windows = {
+    os: 'windows',
+    size: "more"
+}
+
+type system = linux|windows
+
+const loq:system = {
+    os:'windows',
+    size:'more'
+}
