@@ -43,3 +43,21 @@ const loq:system = {
     os:'windows',
     size:'more'
 }
+
+// intersection in type
+// dono ka combination
+
+type filling = {
+    filling: "onion"
+}
+
+type fry = {
+    fry: "oil fry"
+}
+
+type kachori = filling & fry
+
+const pyazLachori: kachori = {
+    filling: 'onion',
+    fry:'oil fry'
+}
