@@ -61,3 +61,18 @@ const pyazLachori: kachori = {
     filling: 'onion',
     fry:'oil fry'
 }
+
+// optional type
+
+type userType = {
+    username : string
+    bio? : string
+}   
+
+const u1:userType = {
+    username: "avs"
+}
+const u2:userType = {
+    username: "avs2",
+    bio: "hello"
+}
