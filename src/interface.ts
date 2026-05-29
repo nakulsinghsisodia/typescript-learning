@@ -76,3 +76,18 @@ const u2:userType = {
     username: "avs2",
     bio: "hello"
 }
+
+
+// read only type
+
+type app = {
+    readonly appName: string
+    version : Number
+}
+
+const recurly: app={
+    appName: "Recurly",
+    version: 1.0
+}
+
+// recurly.appName='a' error de rha h
