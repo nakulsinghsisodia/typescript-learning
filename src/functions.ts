@@ -12,5 +12,13 @@ function some():void{
 }
 
 function order(chai?:string){
+
+}
+
+function createPrder(order: {
+    name: string
+    sugar: number
+    size: "small"|"large"
+}){
     
 }
