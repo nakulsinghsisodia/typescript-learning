@@ -1,0 +1,9 @@
+function makeChai(type:string,price:number){
+    console.log(`making ${type} of price ${price}`);
+    
+}
+
+function getPrice():number{
+    return 23
+}
+
