@@ -7,3 +7,7 @@ function getPrice():number{
     return 23
 }
 
+function some():void{
+
+}
+
