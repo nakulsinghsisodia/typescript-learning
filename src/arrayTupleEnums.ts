@@ -24,3 +24,18 @@ const matrix : number[][] = [
     [4,5,6]
 ]
 
+// tuple
+
+let chaiTuple : [string,number]
+
+chaiTuple = ["adrak",15]
+// chaiTuple = [20,"masala"]
+
+let userInfo : [string,number,boolean?]
+
+userInfo = ["abc",100]
+userInfo = ["abc",100,true]
+
+const location : readonly [number,number] = [2.33,45.6]
+
+const chaiItems : [name:string,price:number] = ["masala",10]
