@@ -82,3 +82,16 @@ class MyChai extends Drink{
     }
 }
 
+class Heater{
+    heat(){
+
+    }
+}
+
+class CahiMaker{
+    constructor(private heater: Heater){}
+
+    make(){
+        this.heater.heat()
+    }
+}
