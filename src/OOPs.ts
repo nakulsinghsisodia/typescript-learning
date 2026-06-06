@@ -47,3 +47,19 @@ class Cup{
     }
 }
 
+
+class ModernChai{
+    private _sugar : number = 2
+
+    get sugar(){
+        return this._sugar
+    }
+
+    set sugar(value:number){
+        this._sugar = value
+    }
+}
+
+const c = new ModernChai()
+c.sugar = 2
+console.log(c.sugar);
