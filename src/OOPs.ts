@@ -63,3 +63,11 @@ class ModernChai{
 const c = new ModernChai()
 c.sugar = 2
 console.log(c.sugar);
+
+class EkChai{
+    static name = "Elaichi"
+
+    constructor(public flavor: string){}
+}
+
+console.log(EkChai.name);
