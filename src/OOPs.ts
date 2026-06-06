@@ -38,3 +38,12 @@ class Walet{
     #walet = 120 //private in js
     _balance = 30 //protected
 }
+
+class Cup{
+    readonly size : number = 250
+
+    constructor(s:number){
+        this.size = s
+    }
+}
+
