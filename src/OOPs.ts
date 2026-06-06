@@ -71,3 +71,14 @@ class EkChai{
 }
 
 console.log(EkChai.name);
+
+abstract class Drink{
+    abstract make() : void
+}
+
+class MyChai extends Drink{
+    make(){
+
+    }
+}
+
