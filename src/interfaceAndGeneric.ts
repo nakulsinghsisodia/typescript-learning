@@ -6,4 +6,4 @@ interface DiscountCall {
 
 const apply50: DiscountCall = (p)=>{return p*0.5}
 
-
+// interface for function in obj
