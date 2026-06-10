@@ -36,4 +36,17 @@ const rating : ChaiRating = {
 
 // merging interfaces
 
+interface User{
+    name: string
+}
+
+interface User{
+    age :number
+}
+
+const u : User = {
+    name:"nakul",
+    age: 21
+}
+
 
