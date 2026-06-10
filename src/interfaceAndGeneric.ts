@@ -83,3 +83,6 @@ interface Box<T> {
 const numberBox : Box<number> = {
     content:12
 }
+
+// generic with api response
+
