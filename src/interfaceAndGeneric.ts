@@ -86,3 +86,14 @@ const numberBox : Box<number> = {
 
 // generic with api response
 
+interface ApiResponse<T>{
+    status:number
+    data:T
+}
+
+const api:ApiResponse<{size:string}> = {
+    status:200,
+    data:{
+        size:"small"
+    }
+}
