@@ -22,3 +22,6 @@ const machine: TeaMachine = {
         
     },
 }
+
+// index signature
+
