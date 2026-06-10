@@ -54,4 +54,8 @@ const u : User = {
  interface b{b:string}
 
  interface c extends a,b{}
- 
+
+
+
+// Generics
+
