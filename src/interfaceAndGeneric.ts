@@ -76,3 +76,10 @@ pair("hello",9)
 
 // generics with interface
 
+interface Box<T> {
+    content: T
+}
+
+const numberBox : Box<number> = {
+    content:12
+}
