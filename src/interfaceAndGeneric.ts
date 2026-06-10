@@ -25,3 +25,11 @@ const machine: TeaMachine = {
 
 // index signature
 
+interface ChaiRating{
+    [flavor:string] : number
+}
+
+const rating : ChaiRating = {
+    mausambi : 5,
+    adrak : 2
+}
