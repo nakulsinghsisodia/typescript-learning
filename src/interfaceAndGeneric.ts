@@ -49,4 +49,5 @@ const u : User = {
     age: 21
 }
 
+// extending interface
 
