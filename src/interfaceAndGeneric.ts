@@ -74,3 +74,5 @@ function pair<A,B>(a:A,b:B) :[A,B] {
 
 pair("hello",9)
 
+// generics with interface
+
