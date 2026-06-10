@@ -33,3 +33,7 @@ const rating : ChaiRating = {
     mausambi : 5,
     adrak : 2
 }
+
+// merging interfaces
+
+
