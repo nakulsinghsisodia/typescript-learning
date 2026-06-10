@@ -59,3 +59,12 @@ const u : User = {
 
 // Generics
 
+
+function warpInArray <T>(item:T): T[]{
+    return [item]
+}
+
+warpInArray("nakul")
+warpInArray(21)
+warpInArray({flavour:"ginger"})
+
