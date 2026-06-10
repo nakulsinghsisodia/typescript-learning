@@ -68,3 +68,9 @@ warpInArray("nakul")
 warpInArray(21)
 warpInArray({flavour:"ginger"})
 
+function pair<A,B>(a:A,b:B) :[A,B] {
+    return [a,b]
+}
+
+pair("hello",9)
+
