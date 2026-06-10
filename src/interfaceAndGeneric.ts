@@ -50,4 +50,8 @@ const u : User = {
 }
 
 // extending interface
+ interface a{a:string}
+ interface b{b:string}
 
+ interface c extends a,b{}
+ 
