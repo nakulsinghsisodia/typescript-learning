@@ -9,7 +9,7 @@ interface ToDo {
     completed: boolean
 }
 
-const fetch = async () =>{
+const fetchToDo = async () =>{
     try{
         const res : AxiosResponse<ToDo> = await axios.get('https://jsonplaceholder.typicode.com/todos/1')
         console.log(res.data);
